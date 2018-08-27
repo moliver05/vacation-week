@@ -16,15 +16,15 @@
 #boullian {
   height: 200px;
   width: 300px;
-  float: right;
-  margin-left: 15px;
+  float: left;
+  margin-right: 15px;
 }
 
 #boullian:hover{
   height: 200px;
   width: 300px;
-  float: right;
-  margin-left: 15px;
+  float: left;
+  margin-right: 15px;
   border: solid black;
   transform: scale(1.1);
 }
@@ -76,3 +76,23 @@ h3 {
   font-style: italic;
   font-family: sans-serif;
 }
+#palace, #louvre, #notredam {
+  width: 300px;
+  height: 200px;
+}
+h2 {
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	font-weight: normal;
+	font-size: 7rem;
+
+}
+
+.paragraph {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
+}
+.jumbotron {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
