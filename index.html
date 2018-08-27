@@ -15,99 +15,126 @@
 <h1>Vacation Planner</h1>
 <p>Fill out this survey to help decide your next destination</p>
 
-<h2>What kind of continent are you looking to visit?</h2>
-  <div class="radio">
-    <label>
-      <input type="radio" name="continent" value="North America" checked>
-      North America
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="continent" value="Asia">
-      Asia
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="continent" value="Europe">
-      Europe
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="continent" value="Surprise Me">
-      Surprise Me!
-    </label>
-  </div>
+<form id="surveyQuestions">
+  <h2>What kind of continent are you looking to visit?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="continent" value="North America">
+        North America
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="continent" value="Asia">
+        Asia
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="continent" value="Europe">
+        Europe
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="continent" value="Surprise Me">
+        Surprise Me!
+      </label>
+    </div>
 
-  <h2>What season are you looking to travel?</h2>
-  <div class="radio">
-    <label>
-      <input type="radio" name="season" value="Any">
-      Spring
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="season" value="Any">
-      Autumn
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="season" value="Summer">
-      Summer
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="season" value="Winter">
-      Winter
-    </label>
-  </div>
+    <h2>What season are you looking to travel?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="season" value="Any">
+        Spring
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="season" value="Any">
+        Autumn
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="season" value="Summer">
+        Summer
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="season" value="Winter">
+        Winter
+      </label>
+    </div>
 
-  <h2>What type of transportation do you prefer?</h2>
-  <div class="radio">
-    <label>
-      <input type="radio" name="transportation" value="public">
-      Public Transportation
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="transportation" value="rental">
-      Rental Vehicle
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="transportation" value="rideshare">
-      Rideshare program
-    </label>
-  </div>
+    <h2>What climate are you looking for?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="climate" value="Cold">
+        Cold
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="climate" value="Mild">
+        Mild
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="climate" value="Hot">
+        Hot
+      </label>
+    </div>
 
-  <h2>What activities are you interested in?</h2>
-  <div class="radio">
-    <label>
-      <input type="radio" name="activity" value="Outdoors">
-      Outdoors
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="activity" value="Indoors">
-      Indoors
-    </label>
-  </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="activity" value="Getaway">
-      Getaway
-    </label>
-  </div>
 
-  <button class="btn btn-primary" type="submit" id="submitSurvey">Submit your survey, to find out your destination!</button>
+    <h2>What type of transportation do you prefer?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="transportation" value="public">
+        Public Transportation
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="transportation" value="rental">
+        Rental Vehicle
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="transportation" value="rideshare">
+        Rideshare program
+      </label>
+    </div>
+
+    <h2>What activities are you interested in?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="activity" value="Outdoors">
+        Outdoors
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="activity" value="Indoors">
+        Indoors
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="activity" value="Getaway">
+        Getaway
+      </label>
+    </div>
+
+    <button class="btn btn-primary" type="submit" id="submitSurvey">Submit your survey, to find out your destination!</button>
+
+</form>
+
+<div id= "hideCities">
+</div>
 
 
 </body>
