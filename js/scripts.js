@@ -25,8 +25,9 @@ var paris = {continent:"Europe", season:"Summer", climate:"Mild", transportation
 var london = {continent:"Europe", season:"Any", climate:"Mild", transportation:"Public", activity:"Indoors"};
 var florence = {continent:"Europe", season:"Any", climate:"Mild", transportation:"Public", activity:"Outdoors"};
 var dubai = {continent:"Surprise Me", season:"Any", climate:"Hot", transportation:"Rental", activity:"Outdoors"};
-var stlucia = {continent:"Surprise Me", season:"Any", climate:"Hot", Transportation:"Public", Activity:"Getaway"};
+var stlucia = {continent:"Surprise Me", season:"Any", climate:"Hot", transportation:"Public", activity:"Getaway"};
 var sydney = {continent:"Surprise Me", season:"Summer", climate:"Hot", transportation:"Public", activity:"Outdoors"};
+
 //FRONTEND
 $(document).ready(function(){
 
