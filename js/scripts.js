@@ -7,21 +7,21 @@ function city (continent, season, climate, transportation, activity){
   this.activity= activity;
 }
 
-var jacksonhole = {continent:"North America", season:"Any", climate:"Ranges", transportation:"Public", activity:"Outdoors"};
-var yosemite = {continent:"North America", season:"Summer", climate:"Ranges", transportation:"Rental", activity:"Outdoors"};
-var breckenridge = {continent:"North America", season:"Any", climate:"Ranges", transportation:"Rental", activity:"Outdoors"};
-var honolulu = {continent:"North America", season:"Summer", climate:"Hot", transportation:"Rental", activity:"Outdoors"};
-var newyork = {continent:"North America", season:"Any", climate:"Mild", transportation:"Public", activity:"Indoors"};
 var vancouver = {continent:"North America", season:"Any", climate:"Mild", transportation:"Rental", activity:"Outdoors"};
+var newyork = {continent:"North America", season:"Any", climate:"Mild", transportation:"Public", activity:"Indoors"};
+var jacksonhole = {continent:"North America", season:"Any", climate:"Ranges", transportation:"Public", activity:"Outdoors"};
+var breckenridge = {continent:"North America", season:"Any", climate:"Ranges", transportation:"Rental", activity:"Outdoors"};
+var yosemite = {continent:"North America", season:"Summer", climate:"Ranges", transportation:"Rental", activity:"Outdoors"};
+var honolulu = {continent:"North America", season:"Summer", climate:"Hot", transportation:"Rental", activity:"Outdoors"};
 var bali = {continent:"Asia", season:"Summer", climate:"Hot", transportation:"Public", activity:"Outdoors"};
 var manila = {continent:"Asia", season:"Summer", climate:"Hot", transportation:"Public", activity:"Outdoors"};
 var phuket = {continent:"Asia", season:"Winter", climate:"Hot", transportation:"Public", activity:"Outdoors"};
 var sansebastian = {continent:"Europe", season:"Summer", climate:"Hot", transportation:"Public", activity:"Outdoors"};
-var santorini = {continent:"Europe", season:"Summer", climate:"Hot", transportation:"Public", activity:"Getawau"};
 var barcelona = {continent:"Europe", season:"Summer", climate:"Hot", transportation:"Public", activity:"Outdoors"};
+var porto = {continent:"Europe", season:"Summer", climate:"Hot", transportation:"Public", activity:"Outdoors"};
+var santorini = {continent:"Europe", season:"Summer", climate:"Hot", transportation:"Public", activity:"Getaway"};
 var prague = {continent:"Europe", season:"Summer", climate:"Mild", transportation:"Public", activity:"Outdoors"};
 var paris = {continent:"Europe", season:"Summer", climate:"Mild", transportation:"Public", activity:"Indoors"};
-var porto = {continent:"Europe", season:"Summer", climate:"Hot", transportation:"Public", activity:"Outdoors"};
 var london = {continent:"Europe", season:"Any", climate:"Mild", transportation:"Public", activity:"Indoors"};
 var florence = {continent:"Europe", season:"Any", climate:"Mild", transportation:"Public", activity:"Outdoors"};
 var dubai = {continent:"Surprise Me", season:"Any", climate:"Hot", transportation:"Rental", activity:"Outdoors"};
