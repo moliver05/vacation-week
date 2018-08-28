@@ -6,6 +6,8 @@ function City (continent, season, climate, transportation, activity){
   this.transportation= transportation;
   this.activity= activity;
 }
+<<<<<<< HEAD
+=======
 function outPut(){
   if (userInput === City){
   display.show("#hideCities")
@@ -47,6 +49,7 @@ function outPut(){
 // }
 
 
+>>>>>>> c18801b7d18b55ef575c86a75191f737816e9f44
 var search = [vancouver, newyork, jacksonhole, breckenridge, yosemite, honolulu, bali, manila, phuket, sansebastian, barcelona, porto, santorini, prague, paris, paris, london, florence, dubai, stlucia, sydney];
 var vancouver = {continent:"North America", season:"Any", climate:"Mild", transportation:"Rental", activity:"Outdoors"};
 var newyork = {continent:"North America", season:"Any", climate:"Mild", transportation:"Public", activity:"Indoors"};
@@ -68,6 +71,7 @@ var florence = {continent:"Europe", season:"Any", climate:"Mild", transportation
 var dubai = {continent:"Surprise Me", season:"Any", climate:"Hot", transportation:"Rental", activity:"Outdoors"};
 var stlucia = {continent:"Surprise Me", season:"Any", climate:"Hot", transportation:"Public", activity:"Getaway"};
 var sydney = {continent:"Surprise Me", season:"Summer", climate:"Hot", transportation:"Public", activity:"Outdoors"};
+
 
 //FRONTEND
 $(document).ready(function(){
