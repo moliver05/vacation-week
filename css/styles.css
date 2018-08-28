@@ -49,7 +49,9 @@ img {vertical-align: middle;}
 }
 
 /*  */
-
+h3 {
+  text-align: center;
+}
 #info1 {
   color: red;
 }
