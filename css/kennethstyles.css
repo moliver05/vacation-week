@@ -1,12 +1,12 @@
 /* Image CSS */
-#stluciaPics1 {
+#pictureset1 {
   display: none;
   width: 100%;
   height: 400px;
   /* align-content: center; */
 }
 
-#stluciaPics2 {
+#pictureset2 {
   width: 30%;
   height: 150px;
   margin-left: 2%;
@@ -22,7 +22,6 @@
   z-index: -1;
   position: absolute;
   width: 100%;
-
 }
 
 #epicodus {
