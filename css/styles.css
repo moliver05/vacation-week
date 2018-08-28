@@ -6,8 +6,63 @@
   text-align: left;
   font-size: xlarge;
 }
+.w3-top {
+    top: 0;
+}
+.w3-top, .w3-bottom {
+    position: inherit;
+    width: 100%;
+    z-index: 1;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+}
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
 
-<<<<<<< HEAD
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+.w3-animate-top {
+    position: absolute;
+    animation: animatetop 0.4s;
+}
+
+.w3-card, .w3-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.w3-bar {
+    width: 100%;
+    overflow: hidden;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
 /* slide show  */
 /* Slideshow container */
 {box-sizing: border-box;}
@@ -20,6 +75,7 @@ img {vertical-align: middle;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
 }
 
 .active {
@@ -53,8 +109,7 @@ img {vertical-align: middle;}
 h3 {
   text-align: center;
 }
-=======
->>>>>>> 66ce5d93abaec99d2f15e3bf581d833f06751976
+
 #info1 {
   color: red;
 }
@@ -71,7 +126,6 @@ h3 {
 #skipic:hover {
   transform: scale(1.1);
 }
-<<<<<<< HEAD
 
 #fishing {
   float: right;
@@ -84,5 +138,3 @@ h3 {
     content: "";
     clear: both;
   }
-=======
->>>>>>> 66ce5d93abaec99d2f15e3bf581d833f06751976

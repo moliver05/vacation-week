@@ -1,5 +1,4 @@
 $(document).ready(function() {
-<<<<<<< HEAD
   var slideIndex = 0;
   showSlides();
 
@@ -18,8 +17,9 @@ $(document).ready(function() {
       slides[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " active";
       setTimeout(showSlides, 2000); // Change image every 2 seconds
-  }
-=======
+};
+
+//
 function openLink(evt, linkName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("myLink");
@@ -32,9 +32,7 @@ function openLink(evt, linkName) {
   }
   document.getElementById(linkName).style.display = "block";
   evt.currentTarget.className += " w3-red";
-}
-// Click on the first tablink on load
-document.getElementsByClassName("tablink")[0].click();
+};
 
->>>>>>> 66ce5d93abaec99d2f15e3bf581d833f06751976
 });
+// user-interface
