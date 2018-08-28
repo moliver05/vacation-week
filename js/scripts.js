@@ -1,11 +1,55 @@
 //BACKEND
-function city (continent, season, climate, transportation, activity){
+function City (continent, season, climate, transportation, activity){
   this.continent= continent;
   this.season= season;
   this.climate= climate;
   this.transportation= transportation;
   this.activity= activity;
 }
+<<<<<<< HEAD
+=======
+function outPut(){
+  if (userInput === City){
+  display.show("#hideCities")
+}else{
+  if (userInput === !City){
+    display.show("#hideCities")
+  }
+}
+}
+
+// var cities =[
+//   new City("vancover", "North America", "Any", "Mild", "Rental", "Outdoors"),
+//   new City("newyork", "North America", "Any", "Mild", "Public", "Outdoors"),
+//   new City("jacksonhole", "North America", "Any", "Ranges", "Public", "Outdoors"),
+//   new City("breckenridge", "North America", "Any", "Ranges", "Rental", "Outdoors"),
+//   new City("yosemite", "North America", "Summer", "Ranges", "Rental", "Outdoors"),
+//   new City("honolulu", "North America", "Summer", "Hot", "Rental", "Outdoors"),
+//   new City("bali", "Asia", "Summer", "Hot", "Public", "Outdoors"),
+//   new City("manila", "Asia", "Summer", "Hot", "Public", "Outdoors"),
+//   new City("phuket", "Asia", "Winter", "Hot", "Public", "Outdoors"),
+//   new City("sansebastian", "Europe", "Summer", "Hot", "Public", "Outdoors"),
+//   new City("barcelona", "Europe", "Summer", "Hot", "Public", "Outdoors"),
+//   new City("porto", "Europe", "Summer", "Hot", "Public", "Outdoors"),
+//   new City("santorini", "Europe", "Summer", "Hot", "Public", "Getaway"),
+//   new City("prague", "Europe", "Summer", "Mild", "Public", "Outdoors"),
+//   new City("paris", "Europe", "Summer", "Mild", "Public", "Indoors"),
+//   new City("london", "Europe", "Any", "Mild", "Public", "Indoors"),
+//   new City("florence", "Europe", "Any", "Mild", "Public", "Outdoors"),
+//   new City("dubai", "Surprise Me", "Any", "Hot", "Rental", "Outdoor"),
+//   new City("stlucia", "Surprise Me", "Any", "Hot", "Public", "Getaway"),
+//   new City("sydney", "Surprise Me", "Summer", "Hot", "Public", "Outdoors")
+// // ]
+// function searchCity(cityName)
+// for (var i = 0; i < cities.length; i++){
+//   if(cityName === cities[i].name){
+//     return cities[i];
+//     console.log(cities[i]);
+//   }
+// }
+
+
+>>>>>>> c18801b7d18b55ef575c86a75191f737816e9f44
 var search = [vancouver, newyork, jacksonhole, breckenridge, yosemite, honolulu, bali, manila, phuket, sansebastian, barcelona, porto, santorini, prague, paris, paris, london, florence, dubai, stlucia, sydney];
 var vancouver = {continent:"North America", season:"Any", climate:"Mild", transportation:"Rental", activity:"Outdoors"};
 var newyork = {continent:"North America", season:"Any", climate:"Mild", transportation:"Public", activity:"Indoors"};
@@ -39,8 +83,7 @@ $("form#surveyQuestions").submit(function(event){
   var climate = $("input:radio[name=climate]:checked").val();
   var transportation = $("input:radio[name=transportation]:checked").val();
   var activity = $("input:radio[name=activity]:checked").val();
-
-
+  var userInput = (continent + season + climate + transportation + activity);
+console. log(userInput);
 });
-
 });
