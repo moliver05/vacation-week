@@ -1,0 +1,49 @@
+/* Image CSS */
+#stluciaPics1 {
+  display: none;
+  width: 120%;
+  height: 400px;
+}
+
+#stluciaPics2 {
+  width: 32%;
+  height: 150px;
+}
+
+#logo {
+  height: 130px;
+  margin-left: 25%;
+}
+
+#backImage {
+  opacity: .5;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: cover;
+}
+
+#epicodus {
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+/* Text CSS */
+
+#headerText {
+  font-size: 16px;
+}
+
+a {
+  color: blue;
+}
+
+
+h1, h2, p, footer, iframe {
+  text-align: center;
+}
+
+iframe {
+  margin-left: 3%;
+  margin-top: 3%;
+}
