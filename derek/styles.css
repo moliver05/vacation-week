@@ -1,0 +1,100 @@
+#eifeltower {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-right:15px;
+}
+#eifeltower:hover {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-right:15px;
+  border: solid black;
+  transform: scale(1.1);
+
+}
+#boullian {
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+}
+
+#boullian:hover{
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+  border: solid black;
+  transform: scale(1.1);
+}
+#moulin {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+
+}
+
+#moulin:hover{
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+  border: solid black;
+  transform: scale(1.2);
+
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: gray;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: skyblue;
+  color: white;
+}
+h3 {
+  color: blue;
+  font-style: italic;
+  font-family:  'Alex Brush';font-size: 30px;
+
+
+}
+#palace, #louvre, #notredam {
+  width: 300px;
+  height: 200px;
+}
+h2 {
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	font-weight: normal;
+	font-size: 7rem;
+
+}
+
+.paragraph {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
+}
+.jumbotron {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
