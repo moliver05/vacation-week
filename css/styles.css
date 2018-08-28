@@ -16,15 +16,15 @@
 #boullian {
   height: 200px;
   width: 300px;
-  float: left;
-  margin-right: 15px;
+  float: right;
+  margin-left: 15px;
 }
 
 #boullian:hover{
   height: 200px;
   width: 300px;
-  float: left;
-  margin-right: 15px;
+  float: right;
+  margin-left: 15px;
   border: solid black;
   transform: scale(1.1);
 }
@@ -50,12 +50,12 @@
 
 .topnav {
   overflow: hidden;
-  background-color: skyblue;
+  background-color: gray;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -63,18 +63,20 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: skyblue;
   color: white;
 }
 h3 {
   color: blue;
   font-style: italic;
-  font-family: sans-serif;
+  font-family:  'Alex Brush';font-size: 30px;
+
+
 }
 #palace, #louvre, #notredam {
   width: 300px;
