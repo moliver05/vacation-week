@@ -14,16 +14,34 @@
   <body class="w3-light-grey">
 
 <!-- Navigation Bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Breckenridge, CO</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</nav>
 <div class="w3-bar w3-white w3-border-bottom w3-xlarge">
-  <a href="#" class="w3-bar-item w3-button w3-text-red w3-hover-red"><b><i class="fa fa-map-marker w3-margin-right"></i>Journey Starts Here</b></a>
+  <a href="#" class="w3-bar-item w3-button w3-text-red w3-hover-red"><div class="animated infinite bounce delays-2s"><b><i class="fa fa-map-marker w3-margin-right"></i>Journey Starts Here</b></a></div>
   <br>
 
 </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
-  <img src="img/mainco.jpg" width="1500" height="700">
-  <div class="animated infinite flash delay-2s"><span class="w3-display-topleft" id="intro">Welcome To <br> Breckenridge, Colorado</span></div>
+  <img src="img/mainco.jpg" width="100%" height="100%">
+  <div class="animated infinite fadeOut slower"><span class="w3-display-topleft" id="intro">Welcome To <br> Breckenridge, Colorado</span></div>
 <br>
 <hr>
 
@@ -48,7 +66,7 @@
   <!--  -->
   <div class="w3-container w3-brown">
     <div class="w3-full w3-margin-bottom">
-      <img src="img/hiking.jpg" style="width:100%">
+      <img src="img/hiking.jpg" id="hikepic" style="width:100%">
         <h3>Activity</h3>
         <p class="w3-opacity">Hiking</p>
         <p>Experience wild life in action while exploring mother nature.</p>
@@ -66,19 +84,19 @@
   <div class="container">
     <div class="w3-full">
     <div class="col-md-4">
-      <img src="img/snowmobile.jpg" style="width:100%">
+      <img src="img/snowmobile.jpg" id="snowmobilepic" style="width:100%">
     </div>
   </div>
 <!--  -->
 
     <div class="col-md-4">
-    <img src="img/horseslide.jpg" style="width:100%">
+    <img src="img/horseslide.jpg" id="horseslidepic" style="width:100%">
     </div>
 
 <!--  -->
 
     <div class="col-md-4">
-    <img src="img/ski.jpg" style="width:100%">
+    <img src="img/ski.jpg" id="skipic" style="width:100%">
     </div>
 
   </div>
