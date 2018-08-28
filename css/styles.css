@@ -7,6 +7,7 @@
   font-size: xlarge;
 }
 
+<<<<<<< HEAD
 /* slide show  */
 /* Slideshow container */
 {box-sizing: border-box;}
@@ -52,6 +53,8 @@ img {vertical-align: middle;}
 h3 {
   text-align: center;
 }
+=======
+>>>>>>> 66ce5d93abaec99d2f15e3bf581d833f06751976
 #info1 {
   color: red;
 }
@@ -68,6 +71,7 @@ h3 {
 #skipic:hover {
   transform: scale(1.1);
 }
+<<<<<<< HEAD
 
 #fishing {
   float: right;
@@ -80,3 +84,5 @@ h3 {
     content: "";
     clear: both;
   }
+=======
+>>>>>>> 66ce5d93abaec99d2f15e3bf581d833f06751976

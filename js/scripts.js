@@ -1,4 +1,5 @@
 $(document).ready(function() {
+<<<<<<< HEAD
   var slideIndex = 0;
   showSlides();
 
@@ -18,4 +19,22 @@ $(document).ready(function() {
       dots[slideIndex-1].className += " active";
       setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
+=======
+function openLink(evt, linkName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("myLink");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(linkName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+// Click on the first tablink on load
+document.getElementsByClassName("tablink")[0].click();
+
+>>>>>>> 66ce5d93abaec99d2f15e3bf581d833f06751976
 });
