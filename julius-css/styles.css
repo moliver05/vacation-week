@@ -87,7 +87,7 @@ h3 {
 
 
 }
-#palace, #louvre, #notredam, #arc, #bistro-style, #chateau {
+.image-size {
   width: 300px;
   height: 200px;
 
@@ -104,6 +104,7 @@ h2 {
   font-family: 'Annie Use Your Telescope', cursive, sans-serif;
   color: black;
   text-shadow: 1px 1px white;
+
 }
 #paragraph2{
   font-family: 'Annie Use Your Telescope', cursive, sans-serif;
