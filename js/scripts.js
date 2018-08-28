@@ -6,7 +6,7 @@ function city (continent, season, climate, transportation, activity){
   this.transportation= transportation;
   this.activity= activity;
 }
-
+var search = [vancover, newyork, jacksonhole, breckenridge, yosemite, honolulu, bali, manila, phuket, sansebastian, barcelona, porto, santorni, prague, paris, paris, london, florence, dubai, stlucia, sydney];
 var vancouver = {continent:"North America", season:"Any", climate:"Mild", transportation:"Rental", activity:"Outdoors"};
 var newyork = {continent:"North America", season:"Any", climate:"Mild", transportation:"Public", activity:"Indoors"};
 var jacksonhole = {continent:"North America", season:"Any", climate:"Ranges", transportation:"Public", activity:"Outdoors"};
