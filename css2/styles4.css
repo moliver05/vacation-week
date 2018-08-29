@@ -139,5 +139,5 @@ h3 {
   }
 
 #hikepic {
-  background-image: linear-gradient(#004092, #020202, transparent);
+  background: linear-gradient(#004092, #020202, transparent);
 }
