@@ -27,7 +27,8 @@ div {
 }
 body, html {
     height: 100%;
-    color: blue;
+    color: silver;
+    background-color: teal;
     line-height: 1.8;
 }
 body, h1, h2, h3, h4, h5, h6,  {
